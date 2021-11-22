@@ -2,9 +2,7 @@
 
 Just taking some notes about different SQL Injections.
 
----------------------------------------------
-
-### Add the command after the last parameter
+### "Add the command after the last parameter"
 
 #### This will display the tables
 ```
